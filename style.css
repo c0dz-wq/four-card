@@ -1,0 +1,128 @@
+:root {
+    /* Neutral */
+    --neutral-dark-blue: hsl(234, 12%, 34%);
+    --neutral-grayish-blue: hsl(229, 6%, 66%);
+    --neutral-light-gray: hsl(0, 0%, 98%);
+    --neutral-white:  hsl(360, 100%, 100%);
+
+   /*  Primary colors */
+    --primary-red: hsl(0, 78%, 62%);
+    --primary-cyan: hsl(180, 62%, 55%);
+    --primary-orange: hsl(34, 97%, 64%);
+    --primary-blue: hsl(212, 86%, 64%);
+    
+    /* Typography */
+    --fs: 15px;
+    
+    /* Fonts */
+    --family: 'Poppins', sans-serif;
+}
+
+html {
+    background: var(--neutral-light-gray);
+    font-family: var(--family);
+}
+
+
+body {
+    font-size: var(--fs);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header__info {
+    display: block;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+h1 {
+    color:  var(--neutral-dark-blue);
+    font-size: 2.2rem;
+    font-weight: 200;
+    margin-top: 2em;
+    margin-bottom: -1em;
+}
+
+h2 {
+    color:  var(--neutral-dark-blue);
+    font-size: 2.2rem;
+    margin-bottom: .5em;
+}
+
+.description {
+    color: var(--neutral-grayish-blue);
+    font-weight: 400;
+    width: 35em;
+    margin: 0 auto;
+}
+
+.container__outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6em;
+}
+
+.container__inner {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
+.card {
+    background: var(--neutral-white);
+    width: 23em;
+    height: 15em;
+    padding: 1.5em 2em;
+    border-radius: 6px;
+    box-shadow: 1px 12px 10px 0px rgba(226,226,235,1);
+    -webkit-box-shadow: 1px 12px 10px 0px rgba(226,226,235,1);
+    -moz-box-shadow: 1px 12px 10px 0px rgba(226,226,235,1);
+}
+
+.card__outer__one {
+    border-top: .3em solid var(--primary-cyan);
+}
+
+.card__outer__two {
+    border-top: .3em solid var(--primary-blue);
+}
+
+.card__inner__one {
+    border-top: .3em solid var(--primary-red);
+    margin-bottom: 2em;
+}
+
+.card__inner__two {
+    border-top: .3em solid var(--primary-orange);
+}
+
+h3 {
+    color:  var(--neutral-dark-blue);
+    font-size: 1.4em;
+    font-weight: 600;
+    margin: .2em 0;
+}
+
+.info {
+    color: var(--neutral-grayish-blue);
+    font-weight: 400;
+    margin-bottom: 3em;
+}
+
+img {
+    float: right;
+}
+
+.attribution {
+    font-size: var(--fs);
+    text-align: center;
+    color: var(--neutral-grayish-blue);
+}
+
+a {
+    color:  var(--neutral-dark-blue);
+    text-decoration: none;
+    font-weight: 400;
+}
