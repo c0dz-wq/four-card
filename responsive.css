@@ -16,9 +16,9 @@
 }
 
 /* MAIN CONTENT */
-@media (min-width: 375px) and (max-width: 1000px) {
+@media (min-width: 300px) and (max-width: 1100px) {
     
-    body { 
+    body {
         transition: all .2s linear; 
         -moz-transition: all .2s linear; 
         -webkit-transition: all .2s linear;
@@ -39,7 +39,7 @@
         margin-bottom: -0.3em;
     }
 
-    .info {
+    .card__info {
         margin-bottom: 3.5em;
         font-size: .8rem;
         width: 19.4em;
